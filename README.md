@@ -1,9 +1,7 @@
 # fiqueinformado-web-ifto
 Projeto Web para o aplicativo Mobile IFPALMAS (https://play.google.com/store/apps/details?id=ifto.com.br.fiqueinformado)
 
-O presente projeto visa o desenvolvimento de uma aplicação web para alimentar dados do aplicativo IFPALMAS. O sistema web visa atender áreas administrativas do Instituto Federal do Tocantins que tenham interesse em disponibilizar informação e enviar notificações para os usuários.
-
-Uma reportagem sobre o aplicativo pode ser vista aqui: https://campuspalmas.ifto.edu.br/index.php/ultimas-noticias/821-professor-cria-aplicativo-com-informacoes-sobre-o-campus-palmas
+O presente projeto tem como objetivo desenvolver uma aplicação web para alimentar dados do aplicativo IFPALMAS. O sistema será utilizado por setores administrativos do Instituto Federal do Tocantins que tenham interesse em disponibilizar informação e enviar notificações aos usuários (Alunos, Professores, Técnicos Administrativos e Público Externo).
 
 O projeto é composto por 2 sub-projetos:
 
@@ -22,22 +20,22 @@ Contribuições são sempre bem vindas. Você pode contribuir de diferentes form
 1. Melhorando a documentação do projeto.
 1. Corrigindo bugs e implementando novos recursos.
 
-As seções abaixo apresentam mais informações de como contribuir em algumas destas formas.
+As seções a seguir apresentam mais informações de como contribuir.
 
 ## Iniciando sua Contribuição
 
 ### Solicitando recurso ou relatando um problema
-Se você quer solicitar um recurso ou relatar um problema, verifique primeiro se o problema/recurso que você quer reportar/requisitar não foi reportado/requisitado ainda na página de issues. Tente pesquisar as issues existentes usando alguma palavra-chave antes de criar nova issue. Se não existe uma issue relacionada ainda, sinta-se livre para criar uma. Por fim, tenha certeza de que cada issue criada esteja relacionada a um único recurso solicitado ou bug.
+Se você quer solicitar um recurso ou relatar um problema, verifique primeiro se o problema/recurso que você quer reportar/requisitar já foi reportado/requisitado na página de issues. Tente pesquisar as issues existentes usando alguma palavra-chave antes de criar uma nova issue. Se não existe uma issue relacionada, sinta-se livre para criar uma. Por fim, tenha certeza de que cada issue criada esteja relacionada a um único recurso solicitado ou bug.
 
 ### Corrigindo um bug ou implementando novo recurso
 Antes de começar a programar, você precisa primeiro fazer um fork do repositório do projeto no GitHub. Você pode corrigir um bug ou implementar um recurso de uma issue já aberta por outra pessoa ou por você mesmo, seguindo mandatoriamente os passos abaixo:
 
-1. Crie um branch específico para trabalhar na issue
-Crie um novo branch a partir do branch `master` para incluir suas alterações. O nome de tal branch deve ter o formato `issue-XYZ`
-Para criar um novo branch a partir de `master`, execute: `git checkout master -b issue-XYZ`. Por favor, evite fazer alterações diretamente no branch `master`.
+1. Crie um branch específica para trabalhar na issue
+Crie um novo branch a partir do branch `master` para incluir suas alterações. O nome de tal branch deve ter o formato `issue-NAME`
+Para criar um novo branch a partir de `master`, execute: `git checkout master -b issue-NAME`. Por favor, evite fazer alterações diretamente no branch `master`.
 
 1. Diretrizes de qualidade de código
-O último passo antes de você iniciar a programar é ter em mente as seguintes diretrizes, de forma que a probabilidade de suas contribuições serem incluídas no projeto serão maiores:
+O último passo antes de você iniciar o trabalho é ter em mente as seguintes diretrizes, de forma que a probabilidade de suas contribuições serem incluídas no projeto serão maiores:
 
 - Evite duplicação de código.
 - Crie funções pequenas e com uma única responsabilidade.
@@ -53,7 +51,7 @@ Crie commits pequenos, específicos. Assim como suas funções devem ser pequena
 # Adicionar o endereço do repositório original (se ainda não fez)
 git remote add upstream https://github.com/fagno/fiqueinformado-web-ifto.git
 
-# Obter os branches remotos
+# Obter os branches remotos do respositório original
 git fetch upstream
 
 # Entrar no seu branch master local
@@ -74,5 +72,5 @@ git rebase master
 ````
 - Faça um último commit se necessário, incluindo na primeira linha a mensagem `Close #XYZ` para indicar o número da issue que está finalizando.
 - Execute git push para enviar seu branch para o GitHub.
-- A partir do seu fork no GitHub, abra uma Pull Request.
+- A partir do seu fork no GitHub, abra uma Pull Request (Responda as perguntas do template).
 - Aguarde suas contribuições serem avaliadas e obrigado antecipadamente pela contribuição.
