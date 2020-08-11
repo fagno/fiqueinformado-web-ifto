@@ -36,7 +36,7 @@ O último passo antes de você iniciar o trabalho é ter em mente as seguintes d
 - Crie funções pequenas e com uma única responsabilidade.
 - Considere incluir documentação nas funções.
 
-1. Envie suas alterações
+2. Envie suas alterações
 - Atualize o branch `master` do seu fork para obter a última versão do projeto:
 
 ````bash
@@ -59,12 +59,13 @@ git push
 
 - Antes de começar a programar, você precisa primeiro fazer um fork do repositório do projeto no GitHub. Você pode corrigir um bug ou implementar um recurso de uma issue já aberta por outra pessoa ou por você mesmo, seguindo mandatoriamente os passos abaixo:
 
-1. Crie um branch específica para trabalhar na issue
-Crie um novo branch a partir do branch `master` para incluir suas alterações. O nome de tal branch deve ter o formato `issue-NAME`
+3. Crie um branch específica para trabalhar na issue
+
+- Crie um novo branch a partir do branch `master` para incluir suas alterações. O nome de tal branch deve ter o formato `issue-NAME`
 Para criar um novo branch a partir de `master`, execute: `git checkout master -b issue-NAME`. Por favor, evite fazer alterações diretamente no branch `master`.
 
-1. Faça seus commits
-Crie commits pequenos, específicos. Assim como suas funções devem ser pequenas, seus commits devem ser focados em resolver um único problema. A resolução de uma issue normalmente pode requerer vários commits. Gaste algum tempo escrevendo mensagens de commit estruturadas, informativas e que descrevem claramente o que você fez em cada commit. 
+4. Faça seus commits
+- Crie commits pequenos, específicos. Assim como suas funções devem ser pequenas, seus commits devem ser focados em resolver um único problema. A resolução de uma issue normalmente pode requerer vários commits. Gaste algum tempo escrevendo mensagens de commit estruturadas, informativas e que descrevem claramente o que você fez em cada commit. 
 
 - Execute um `rebase` para incluir suas alterações no topo do branch `master`, de forma que suas alterações serão baseadas na versão mais recente do código, antes de enviar sua contribuição. Para isto execute:
 
